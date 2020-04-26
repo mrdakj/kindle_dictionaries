@@ -11,21 +11,26 @@ Output: dictionary.mobi (English - target language dictionary)
 ## Dokcer 
 
 Get Docker image:
+
     ```sh
 	docker pull mrdakj/dictionary 
 
-	```
+    ```
+
 Create and run a container:
+
     ```sh
 	docker run -it mrdakj/dictionary --shell
 
     ```
 Get container name:
+
     ```sh
 	docker ps -a
 
     ```
 Copy generated dictionary from container to host:
+
     ```sh
 	docker cp [container_name]:/dictionary.mobi .
 
