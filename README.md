@@ -1,13 +1,11 @@
 # Kindle English-Language Dictionary Generator
 
-***
 ## Usage
 
 Input: target language
 
 Output: dictionary.mobi (English - target language dictionary)
 
-***
 ## Dokcer 
 
 Get Docker image:
@@ -35,7 +33,6 @@ Copy generated dictionary from container to host:
 	docker cp [container_name]:/dictionary.mobi .
 
     ```
-***
 ## :package: Installation
 :exclamation: Requirements: [range-v3](https://github.com/ericniebler/range-v3), [googletrans](https://pypi.org/project/googletrans/)
 
@@ -61,5 +58,3 @@ Copy generated dictionary from container to host:
 	./run.sh
 
     ```
-***
-
